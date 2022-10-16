@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style04.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <title>Create account</title>
+</head>
+
+<body>
+    <header class="header1 scrolled">
+        <a href="index.html">
+            <img class="logo0" alt="australia" src="aus-new.png">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list1">
+                <li><a class="main-nav-link" href="index1.html">Place to go </a></li>
+                <li><a class="main-nav-link" href="#">Testimonials</a></li>
+                <li><a class="main-nav-link" href="#">Pricing</a></li>
+                <li><a class="main-nav-link" href="#">Traditional food</a></li>
+                <li><a class="main-nav-link nav-cta" href="#">Take a look</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 class="label">Create account</h1>
+        <form class="login_form" method="post" action="home.html" name="form" onsubmit="return validated()">
+
+            <div class="font">Email or phone</div>
+            <input type="text" autocomplete="off" name="email" placeholder="Email or phone">
+
+            <div id="email_error">Please fill your Email or Phone</div>
+            <div class="font font2">Password</div>
+
+            <input type="password" name="password" placeholder="Password">
+            <div id="pass_error">Please fill your password</div>
+
+            <button class="submit">Create</button>
+        </form>
+    </div>
+    <script src="log.js"></script>
+</body>
